@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default Suite">
+    <listeners>
+    <listener class-name="appium1.listeners.TestListener"></listener>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+        <listener class-name="appium1.listeners.ReRunListener"/>
+    </listeners>
+    <test name="appium1">
+        <classes>
+            <class name="appium1.testcases.versioncheck.VersionCheck"/>
+        </classes>
+    </test>
+</suite>
