@@ -9,6 +9,7 @@
     </listeners>
     <test name="appium1">
         <classes>
+            <class name="appium1.testcases.login.LoginStatusCheck"/>
             <class name="appium1.testcases.versioncheck.VersionCheck"/>
         </classes>
     </test>
